@@ -90,7 +90,21 @@ export const StatsModal = ({
           >
             {SHARE_TEXT}
           </button>
+
+          <div>
+	        <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
+		        Don't want to wait 24 hours for a new bongle? {' '}
+		     	<a
+		          href="https://infinite.bongbong.com/"
+		          className="underline font-bold"
+		        >
+		            Try Bongle Infinite!
+		        </a>{' '}
+		    </p>  
+	      </div>
         </div>
+
+        
       )}
     </BaseModal>
   )
