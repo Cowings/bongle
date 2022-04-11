@@ -7,7 +7,7 @@ type Props = {
 
 export const HeartModal = ({ isOpen, handleClose }: Props) => {
   return (
-    <BaseModal title="Thank You" isOpen={isOpen} handleClose={handleClose}>
+    <BaseModal title="Attribution" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         Bongle is created by Theodore Bong and every day's word is manually set by yours truly. 
         Credits to the Original Wordle & React-Wordle for inspiration and guidance.
